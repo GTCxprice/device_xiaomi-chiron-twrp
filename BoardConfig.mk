@@ -71,7 +71,7 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 ifeq ($(FOX_BUILD_FULL_KERNEL_SOURCES),1)
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_CONFIG := chiron-fox_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sagit
+TARGET_KERNEL_SOURCE := kernel/xiaomi/chiron
 else
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/Image.gz-dtb
 PRODUCT_COPY_FILES += \
