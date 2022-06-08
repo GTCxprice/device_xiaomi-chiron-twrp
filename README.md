@@ -45,5 +45,5 @@ Special thanks to the following people or repo:
 - [Nanhumly](https://github.com/Nanhumly)
 - [GTCxprice](https://github.com/GTCxprice)
 - [0ranko0P](https://github.com/0ranko0P)
-- [foxlesbiao)](https://github.com/foxlesbiao)
+- [foxlesbiao](https://github.com/foxlesbiao)
 - [twrp_device_xiaomi_sagit](https://github.com/0ranko0P/twrp_device_xiaomi_sagit)
