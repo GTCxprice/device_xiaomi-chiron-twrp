@@ -70,14 +70,11 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 ifeq ($(FOX_BUILD_FULL_KERNEL_SOURCES),1)
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-TARGET_KERNEL_CONFIG := chiron-fox_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/chiron
+TARGET_KERNEL_CONFIG := chiron_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8998
 else
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/Image.gz-dtb
-PRODUCT_COPY_FILES += \
-    $(TARGET_PREBUILT_KERNEL):kernel
 endif
-# DJ9 end
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8998
@@ -134,8 +131,8 @@ TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone5/temp
 
 # SHRP specific build flags
 SHRP_PATH := $(DEVICE_PATH)
-SHRP_MAINTAINER := 0Ranko0P
-SHRP_DEVICE_CODE := Sagit
+SHRP_MAINTAINER := Shreyas(GTCxprice)
+SHRP_DEVICE_CODE := Chiron
 SHRP_EDL_MODE := 0
 SHRP_INTERNAL := /sdcard
 SHRP_OTG := /usb_otg
