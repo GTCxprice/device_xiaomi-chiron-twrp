@@ -43,7 +43,7 @@ lunch twrp_chiron-eng && mka recoveryimage
 Special thanks to the following people or repo:
 
 - [Nanhumly](https://github.com/Nanhumly)
-- [Rom-Builder]https://github.com/Rom-Builder
+- [Rom-Builder](https://github.com/Rom-Builder)
 - [0ranko0P](https://github.com/0ranko0P)
 - [foxlesbiao](https://github.com/foxlesbiao)
 - [twrp_device_xiaomi_sagit](https://github.com/0ranko0P/twrp_device_xiaomi_sagit)
